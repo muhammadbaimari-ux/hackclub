@@ -2,93 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HackClub – Ultimate Hacking Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Hackers Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">HackClub</div>
-        <ul>
-            <li><a href="#home" class="nav-link active">Home</a></li>
-            <li><a href="#guides" class="nav-link">Guides</a></li>
-            <li><a href="#tools" class="nav-link">Tools</a></li>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="home" class="section">
-        <h1>Welcome to HackClub</h1>
-        <p>Your source for ethical hacking guides, tools, and resources. Stay curious, stay secure!</p>
-        <a href="#guides" class="cta-btn">Get Started</a>
-    </section>
-
-    <section id="guides" class="section">
-        <h2>Essential Hacking Guides</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Getting Started with Kali Linux</h3>
-                <p>Learn how to install, configure, and use Kali Linux for penetration testing and ethical hacking.</p>
-                <a href="#" class="card-link">Read More</a>
-            </div>
-            <div class="card">
-                <h3>Wi-Fi Hacking Basics</h3>
-                <p>Understand the fundamentals of wireless security and common Wi-Fi hacking techniques (for educational use!).</p>
-                <a href="#" class="card-link">Read More</a>
-            </div>
-            <div class="card">
-                <h3>Common Cybersecurity Tools</h3>
-                <p>See our list of must-have tools for hackers: Nmap, Metasploit, Burp Suite, and more.</p>
-                <a href="#" class="card-link">Read More</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="tools" class="section">
-        <h2>Top Hacking Tools</h2>
-        <ul class="tool-list">
-            <li>
-                <span class="tool-name">Kali Linux</span>
-                <span class="tool-desc">A powerful Linux distribution for penetration testing and security auditing.</span>
-            </li>
-            <li>
-                <span class="tool-name">Nmap</span>
-                <span class="tool-desc">Open-source network scanner for vulnerability discovery.</span>
-            </li>
-            <li>
-                <span class="tool-name">Metasploit</span>
-                <span class="tool-desc">Famous penetration testing framework with exploits and payloads.</span>
-            </li>
-            <li>
-                <span class="tool-name">Wireshark</span>
-                <span class="tool-desc">Packet analyzer for network troubleshooting and analysis.</span>
-            </li>
-            <li>
-                <span class="tool-name">Burp Suite</span>
-                <span class="tool-desc">Advanced web vulnerability scanner and proxy tool.</span>
-            </li>
-        </ul>
-    </section>
-
-    <section id="about" class="section">
-        <h2>About HackClub</h2>
-        <p>HackClub is a community-driven platform providing high-quality hacking guides, tool recommendations, and up-to-date news on cybersecurity. Our mission is to promote ethical hacking and responsible vulnerability research.</p>
-    </section>
-
-    <section id="contact" class="section">
-        <h2>Contact & Join Us</h2>
-        <form id="contactForm">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <textarea id="message" name="message" rows="4" placeholder="Message / Inquiry"></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p id="formMsg"></p>
-    </section>
-
+    <header>
+        <h1>Advanced Hacking Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#guides">Guides</a></li>
+                <li><a href="#news">Live News</a></li>
+                <li><a href="#terminal">Terminal</a></li>
+                <li><a href="#search">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tools">
+            <h2>100+ Tools</h2>
+            <div id="tools-table"></div>
+        </section>
+        <section id="guides">
+            <h2>Guides</h2>
+            <div id="guides-content"></div>
+        </section>
+        <section id="news">
+            <h2>Live Security News</h2>
+            <div id="news-content"></div>
+        </section>
+        <section id="terminal">
+            <h2>Interactive Fake Terminal</h2>
+            <div id="terminal-content"></div>
+        </section>
+        <section id="search">
+            <h2>Advanced Search/Filter</h2>
+            <div id="search-content"></div>
+        </section>
+    </main>
     <footer>
-        &copy; 2026 HackClub. For educational purposes only.
+        <p>&copy; 2026 Advanced Hacking Hub. All rights reserved.</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
